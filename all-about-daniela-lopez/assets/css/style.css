@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ .header {
+    color:black;
+    text-align: center;
+}
+
+body {
+    color: #063439;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+.nav {
+    overflow: hidden;
+    background-color: bisque;
+}
+.nav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
