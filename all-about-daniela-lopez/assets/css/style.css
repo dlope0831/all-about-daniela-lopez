@@ -64,10 +64,16 @@ h2 {
     text-align: left;
     background-color: #ffe2b7;
 }
+.applications {
+    flex-wrap: wrap;
+}
 .application-img {
     width: 25%;
 }
-
+.run-buddy {
+    width: 50%;
+    flex-wrap: wrap;
+}
 .flex-row {
     margin: 0 auto;
     display: flex;
@@ -81,5 +87,9 @@ h2 {
     background-color: #fff5ff;
     font-size: larger;
 }
+
+footer h2 {
+    text-align: center;
+    background-color: #cdbdf8;
+    font-size: small;
 }
-/*Footer Styling h2*/
