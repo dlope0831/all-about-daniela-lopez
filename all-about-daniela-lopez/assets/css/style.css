@@ -3,20 +3,21 @@
     margin: 0;
     padding: 0;
 }
-
- .header {
-    color:black;
+.header {
+    color: #cdbdf8;
     text-align: center;
+    
 }
 
 body {
     color: #063439;
     font-family:'Times New Roman', Times, serif;
   }
+
   
 .nav {
     overflow: hidden;
-    background-color: bisque;
+    background-color: #ffe2b7;
 }
 .nav a {
     float: left;
@@ -31,3 +32,40 @@ body {
     background-color: aliceblue;
     color: black;
 }
+
+img {
+    width: 100%;
+}
+p {
+    background-color: #fff5ff;
+    text-align: center;
+    font-size: larger;
+}
+h1 {
+    text-align: center;
+}
+.about-me{
+    background-color: #fff5ff;
+}
+.about-me img{
+    display: flex;
+    margin: 50px auto;
+    max-width: 500px;
+}
+h2 {
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    background-color: #ffe2b7;
+}
+
+.contact-me {
+    clear: both;
+    text-align: center;
+    background-color: #fff5ff;
+}
+}
+/*Footer Styling h2*/
