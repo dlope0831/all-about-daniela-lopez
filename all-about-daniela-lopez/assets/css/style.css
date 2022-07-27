@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 .header {
     color: #cdbdf8;
@@ -46,11 +47,13 @@ h1 {
 }
 .about-me{
     background-color: #fff5ff;
+    
 }
 .about-me img{
     display: flex;
     margin: 50px auto;
     max-width: 500px;
+    
 }
 h2 {
     color:black;
@@ -61,11 +64,22 @@ h2 {
     text-align: left;
     background-color: #ffe2b7;
 }
+.application-img {
+    width: 25%;
+}
 
-.contact-me {
+.flex-row {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.connect-with-me {
     clear: both;
     text-align: center;
     background-color: #fff5ff;
+    font-size: larger;
 }
 }
 /*Footer Styling h2*/
