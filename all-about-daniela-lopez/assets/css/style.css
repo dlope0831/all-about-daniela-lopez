@@ -15,7 +15,7 @@ body {
     font-family:'Times New Roman', Times, serif;
   }
 
-  
+/* This styles the Nav Section*/  
 .nav {
     overflow: hidden;
     background-color: #ffe2b7;
@@ -34,29 +34,34 @@ body {
     background-color: aliceblue;
     color: black;
 }
+/* This styles the landing page img*/
 article img{
     width: 100%;
 }
+/* This styles the "applications" section img*/
 section div a img {
     width: 100%;
 }
-
+/* This styles the first "applications" section img to be bigger*/
 section div b img {
     width: 600px;
 }
+/* This styles the paragraph section*/
 p {
     background-color: #fff5ff;
     text-align: center;
     font-size: larger;
 }
+/* This styles the h1 sections*/
 h1 {
     text-align: center;
 }
+/* This styles the "about-me" Section*/
 .about-me{
     background-color: #fff5ff;
     
 }
-
+/* This styles the h2 sections*/
 h2 {
     color:black;
     text-align: center;
@@ -66,22 +71,21 @@ h2 {
     text-align: left;
     background-color: #ffe2b7;
 }
-
-
+/* This styles the containers to flex*/
 .flex-row {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+/* This styles the "connect-with-me" Section*/
 .connect-with-me {
     clear: both;
     text-align: center;
     background-color: #fff5ff;
     font-size: larger;
 }
-
+/*Footer Styling*/
 footer h2 {
     text-align: center;
     background-color: #cdbdf8;
