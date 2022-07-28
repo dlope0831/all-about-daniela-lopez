@@ -103,6 +103,12 @@ h2 {
     text-align: center;
     font-size: larger;
 }
+section div a img {
+    width: 100%;
+}
+section div b img {
+    width: 300px;
+}
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
